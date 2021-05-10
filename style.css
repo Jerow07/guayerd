@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #c7c8c4;
+}
+.imagenpizza {
+  margin: 0px;
+  border: 0px;
+  background-color: #a6341b;
+}
+.imagenpi {
+  width: 100%;
+  height: 530px;
+  border: 2px solid;
+  padding: 3px;
+}
+.navegacion {
+    
+  background-color: #d1bf91;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  font-size: 20px;
+  border: 2px solid;
+  margin: 0;
+  padding: 20px;
+}
+.navegacion li {
+    padding: 20px;;
+    border:solid 2px ;
+}
+.boton:hover {
+  color: red;
+}
+.boton {
+  text-decoration: none;
+}
+.texto {
+  text-align: justify;
+  background-color: #f9c743;
+  margin: 5px;
+}
+.texto p {
+  font-size: 20px;
+}
+.pizzafoto {
+    border: 2px solid;
+  padding: 10px;
+  width: 250px;
+  height: 250px;
+}
+.articulo {
+  border: 1px solid;
+  background-color: #60371e;
+  display: flex;
+}
+.articulo p {
+    padding: 2px;
+  font-size: 20px;
+  text-align: justify;
+}
+.articulo h2 {
+  font-size: 30px;
+  text-decoration: underline;
+}
+.forma {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid;
+  margin: auto;
+  width: 200px;
+  padding: 20px;
+}
+
+.forma label {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.button {
+  background-color: grey;
+  margin-top: 10px;
+}
+
+.button:hover {
+  color: red;
+  cursor: pointer;
+}
+.fuente {
+    display: flex;
+    
+    margin-left: 10px;
+}
+.fuente p{
+    margin: 0;
+}
